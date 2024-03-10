@@ -1,0 +1,38 @@
+@import './color.css';
+
+.login {
+
+    width: 500px;
+    height: 500px;
+    background-color: var(--secondary-color);
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+}
+
+.login .btn-login {
+    width: 100%;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.login h1 {
+    margin-top: 20px;
+    color: var(--color-text);
+}
+
+.login .text-register {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login hr {
+    height: 25px;
+    width: 120px;
+    color: black;
+}
+
+.login p {
+    padding: 0px;
+}
